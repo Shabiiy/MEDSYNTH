@@ -1,0 +1,35 @@
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+backend/.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+*.db
+*.sqlite3
+
+# Local Environment Variables
+.env
+backend/.env
+frontend/.env
+*.local
+
+# Storage artifacts (preserve directory structure via .gitkeep)
+backend/storage/datasets/*
+!backend/storage/datasets/.gitkeep
+backend/storage/generated/*
+!backend/storage/generated/.gitkeep
+backend/storage/models/*
+!backend/storage/models/.gitkeep
+
+# IDEs & System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
